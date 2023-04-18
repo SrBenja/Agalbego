@@ -1,18 +1,12 @@
-.contenedor{
-  margin: 0;
-  position: absolute;
-  top: 10%;
-  left: 70%;
-  transform: translate(-50%, -50%);
+.contenedor {
+display: flex;
+justify-content: right;
+align-items: flex-end;
 }
 
-.contenedor2{
-    margin: 0;
-    position: absolute;
-    top: 10%;
-    left: 90%;
-    transform: translate(-50%, -50%);
-  }
+.foto {
+margin: 10px;
+}
 
 .circular--square {
   border-radius: 50%;
